@@ -1,0 +1,74 @@
+/* ********** Custom Properties ********** */
+:root {
+    --clr-primary-400 : hsl(0, 0%, 100%);
+    --clr-secondary-200: hsl(212, 45%, 89%);
+    
+    --clr-background: hsl(218, 44%, 22%);
+    --clr-paragraphs: hsl(220, 15%, 55%);
+
+    --fw-regular: 400;
+    --fw-bold: 700;
+}
+
+
+/* ********** Reset ********** */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "outfit", sans-serif;
+    background-color: var(--clr-secondary-200);
+    display: grid;
+    min-height: 100vh;
+    place-content: center;
+}
+
+
+img,
+iframe,
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ********** Components ********** */
+.card {
+    background-color: var(--clr-primary-400);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 1rem;
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.card__img {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.card__h2 {
+    font-weight: var(--fw-bold);
+    text-align: center;
+}
+
+.card__paragraph {
+    font-weight: var(--fw-regular);
+    text-align: center;
+    color: var(--clr-paragraphs);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
