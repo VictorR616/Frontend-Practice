@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="assets/favicon-32x32.png" type="image/x-icon" />
+        <title>Results Summary Component</title>
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- My Styles -->
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <main>
+            <section class="container">
+                <article class="summary">
+                    <h3 class="summary__h3">Your Result</h3>
+                    <div class="summary__circle">
+                        <span class="circle__result">76</span>
+                        <p class="circle__paragraph">of 100</p>
+                    </div>
+                    <h2 class="summary__h2">Great</h2>
+                    <p class="summary__paragraph">
+                        You scored higher than 65% of the people who have taken these tests.
+                    </p>
+                </article>
+
+                <article class="results">
+                    <h3 class="results__h3">Summary</h3>
+                    <div
+                        class="results__element reaction"
+                        data-icon="reaction"
+                        aria-label="Reaction"
+                    >
+                        <div class="left-elements">
+                            <p>Reaction</p>
+                        </div>
+                        <div class="right-elements">
+                            <p>80 <span> / 100</span></p>
+                        </div>
+                    </div>
+                    <div class="results__element memory" data-icon="memory" aria-label="Memory">
+                        <div class="left-elements">
+                            <p>Memory</p>
+                        </div>
+                        <div class="right-elements">
+                            <p>92 <span> / 100</span></p>
+                        </div>
+                    </div>
+                    <div class="results__element verbal" data-icon="verbal" aria-label="Verbal">
+                        <div class="left-elements">
+                            <p>Verbal</p>
+                        </div>
+                        <div class="right-elements">
+                            <p>61 <span> / 100</span></p>
+                        </div>
+                    </div>
+                    <div class="results__element visual" data-icon="visual" aria-label="Visual">
+                        <div class="left-elements">
+                            <p>Visual</p>
+                        </div>
+                        <div class="right-elements">
+                            <p>72<span> / 100</span></p>
+                        </div>
+                    </div>
+                    <button class="summary__button">Continue</button>
+                </article>
+            </section>
+        </main>
+    </body>
+</html>
