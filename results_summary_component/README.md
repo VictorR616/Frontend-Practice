@@ -27,11 +27,11 @@ Users should be able to:
 ### Screenshot
 
 - **Desktop**
-![Imagen](result\desktop.png)
+![Imagen](https://github.com/VictorR616/Frontend-Practice/blob/e7830b8108688df89f7ce6854ddaea3fa34d52a5/results_summary_component/result/desktop.png)
 - **Interaction**
-![Imagen](result\interaction.png)
+![Imagen](https://github.com/VictorR616/Frontend-Practice/blob/e7830b8108688df89f7ce6854ddaea3fa34d52a5/results_summary_component/result/interaction.png)
 - **Mobile**
-![Imagen](result\mobile.png)
+![Imagen](https://github.com/VictorR616/Frontend-Practice/blob/e7830b8108688df89f7ce6854ddaea3fa34d52a5/results_summary_component/result/mobile.png)
 
 
 ### Links
